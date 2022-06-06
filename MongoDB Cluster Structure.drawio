@@ -1,0 +1,49 @@
+<mxfile host="65bd71144e">
+    <diagram id="JpYxxkVmfcQ-ov4f-ZGi" name="Page-1">
+        <mxGraphModel dx="1620" dy="1390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="DALJHrnJVv75sO_gtWrq-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="355" y="350" width="140" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="DALJHrnJVv75sO_gtWrq-2" value="Cluster" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="395" y="360" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="400" width="120" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Database 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="410" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="DALJHrnJVv75sO_gtWrq-3" value="Collection 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="385" y="440" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="DALJHrnJVv75sO_gtWrq-5" value="Collection 2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="385" y="490" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="DALJHrnJVv75sO_gtWrq-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="385" y="540" width="80" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="DALJHrnJVv75sO_gtWrq-8" value="Collection n" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="540" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="DALJHrnJVv75sO_gtWrq-9" value="Document 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="570" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="DALJHrnJVv75sO_gtWrq-11" value="Document 2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="600" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="DALJHrnJVv75sO_gtWrq-12" value="Document n" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="630" width="70" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Database 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="680" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Database n" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="710" width="120" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

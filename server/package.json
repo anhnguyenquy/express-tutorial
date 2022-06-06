@@ -1,0 +1,29 @@
+{
+  "name": "express-tutorial",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.5",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.16",
+    "pug": "2.0.0-beta11",
+    "randomstring": "^1.2.2",
+    "socket.io": "^4.5.1",
+    "yup": "^0.32.11"
+  },
+  "packageManager": "yarn@3.2.1",
+  "devDependencies": {
+    "@faker-js/faker": "^7.1.0"
+  }
+}
