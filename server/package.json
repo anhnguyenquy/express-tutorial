@@ -20,10 +20,8 @@
     "pug": "2.0.0-beta11",
     "randomstring": "^1.2.2",
     "socket.io": "^4.5.1",
+    "@faker-js/faker": "^7.1.0",
     "yup": "^0.32.11"
   },
-  "packageManager": "yarn@3.2.1",
-  "devDependencies": {
-    "@faker-js/faker": "^7.1.0"
-  }
+  "packageManager": "yarn@3.2.1"
 }
