@@ -6,8 +6,7 @@ import { useEffect, useState } from 'react'
 const Time = () => {
   const [time, setTime] = useState('')
   useEffect(() => {
-    // const socket = socketIOClient(process.env.REACT_APP_SERVER_ORIGIN)
-    const socket = socketIOClient('http://192.168.1.14:3000')
+    const socket = socketIOClient(process.env.REACT_APP_SERVER_ORIGIN)
     console.log('Connected to websocket and started listening to events.')
     socket.on('Time', data => {
       setTime(data)
