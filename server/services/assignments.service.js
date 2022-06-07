@@ -1,9 +1,14 @@
 const { AssignmentModel } = require('../models')
-const mongodb = require('mongodb')
 
 const create = async (content) => {
   const created = await AssignmentModel.create(content)
   return created
+}
+
+const getAll = async () => {
+  // mongoose can populate no matter if the reference field contains an id or an array of ids
+  const assignments = await AssignmentModel.find().populate('participants') 
+  return assignments
 }
 
 const getByFilter = async (queries) => {
@@ -22,7 +27,7 @@ const modify = async (id, content) => {
 }
 
 const remove = async (id) => {
-  const result = await AssignmentModel.deleteOne({ _id: mongodb.ObjectId(id) })
+  const result = await AssignmentModel.deleteOne({ _id: id })
   return result
 }
 
@@ -31,5 +36,6 @@ module.exports = {
   getByFilter,
   getByID,
   modify,
-  remove
+  remove,
+  getAll
 }

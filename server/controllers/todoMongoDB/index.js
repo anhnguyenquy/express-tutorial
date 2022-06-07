@@ -4,6 +4,7 @@ const getAssignmentByID = require('./getAssignmentByID')
 const getAssignmentsByFilter = require('./getAssignmentsByFilter')
 const modifyAssignment = require('./modifyAssignment')
 const generate = require('./generate')
+const getAll = require('./getAll')
 
 module.exports = {
   createAssignment,
@@ -11,5 +12,6 @@ module.exports = {
   getAssignmentByID,
   getAssignmentsByFilter,
   modifyAssignment,
-  generate
+  generate,
+  getAll
 }

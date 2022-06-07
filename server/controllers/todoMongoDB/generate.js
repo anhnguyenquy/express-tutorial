@@ -1,5 +1,6 @@
 const { usersService, assignmentsService } = require('../../services')
 const { faker } = require('@faker-js/faker')
+const mongoose = require('mongoose')
 
 const generate = async (req, res, next) => {
   const users = await usersService.getAll()
@@ -9,7 +10,7 @@ const generate = async (req, res, next) => {
       content: faker.lorem.sentence(),
       creationTime: (new Date()).toString(),
       finishTime: (new Date()).toString(),
-      participants: faker.helpers.arrayElements(ids),
+      participants: faker.helpers.arrayElements(ids), // mongoose will automatically turn the ids into ObjectIds
       finished: faker.datatype.boolean()
     })
   }

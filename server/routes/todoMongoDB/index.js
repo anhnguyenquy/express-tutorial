@@ -8,7 +8,8 @@ const {
   getAssignmentByID,
   getAssignmentsByFilter,
   modifyAssignment,
-  generate
+  generate,
+  getAll
 } = todoMongoDB
 
 router.post('/create', createAssignment)
@@ -17,5 +18,6 @@ router.post('/create', createAssignment)
   .put('/modify/:id', modifyAssignment)
   .delete('/delete/:id', deleteAssignment)
   .get('/generate', generate) 
-
+  .get('/all', getAll)
+  
 module.exports = router

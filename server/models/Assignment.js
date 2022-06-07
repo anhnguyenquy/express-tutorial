@@ -7,7 +7,12 @@ const schema = new Schema({
   content: String,
   creationTime: String,
   finishTime: String,
-  participants: [String],
+  participants: [
+    {
+      type: Schema.Types.ObjectId,
+      ref: 'user'
+    }
+  ],
   finished: Boolean,
 })
 
